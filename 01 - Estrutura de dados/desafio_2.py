@@ -84,7 +84,7 @@ def sacar(*, saldo, saque, extrato, limite, numero_saques, limite_saques):
         print("Saque executado com sucesso!")
     return saldo, extrato, numero_saques
 
-def extratp(saldo, /, *, extrato):
+def extrato(saldo, /, *, extrato):
     print("\n" + " Extrato Bancário ".center(24, "#"))
     print()
     print("Sem movimentações\n" if not extrato else extrato)
